@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
                 showCamera();
                }else{
                    //show why we need permission
+                   //Adding comment
                }
             });
     private ActivityResultLauncher<ScanOptions> qrCodeLauncher = registerForActivityResult(new ScanContract(),result ->{
